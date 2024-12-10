@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails du Fruit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Détails du Fruit</h1>
+        <a href="index.html">Retour à la liste</a>
+    </header>
+
+    <main>
+        <div id="fruitDetails">
+            <h2 id="fruitName"></h2>
+            <p id="fruitDescription"></p>
+        </div>
+    </main>
+
+    <script>
+        // Récupérer l'ID du fruit depuis l'URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const fruitId = urlParams.get('id');
+
+        // Fonction pour récupérer les détails du fruit
+        async function fetchFruitDetails(id) {
+            const response = await fetch('fruits.json');
+            const fruits = await response.json();
+            const fruit = fruits.find(f => f.id == id);
+            if (fruit) {
+                document.getElementById('fruitName').textContent = fruit.name;
+                document.getElementById('fruitDescription').textContent = fruit.description;
+            } else {
+                document.getElementById('fruitDetails').innerHTML = "<p>Fruit non trouvé.</p>";
+            }
+        }
+
+        fetchFruitDetails(fruitId);
+    </script>
+</body>
+</html>

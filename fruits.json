@@ -1,0 +1,22 @@
+[
+    { "id": 1, "name": "Pomme", "description": "La pomme est un fruit sucré et croquant." },
+    { "id": 2, "name": "Banane", "description": "La banane est un fruit jaune, sucré et riche en potassium." },
+    { "id": 3, "name": "Orange", "description": "L'orange est un agrume acide et juteux." },
+    { "id": 4, "name": "Fraise", "description": "La fraise est un petit fruit rouge au goût sucré." },
+    { "id": 5, "name": "Poire", "description": "La poire est douce et juteuse, souvent consommée en dessert." },
+    { "id": 6, "name": "Cerise", "description": "La cerise est un fruit rouge, sucré et légèrement acide." },
+    { "id": 7, "name": "Kiwi", "description": "Le kiwi est un fruit exotique au goût acidulé." },
+    { "id": 8, "name": "Mangue", "description": "La mangue est un fruit tropical, sucré et juteux." },
+    { "id": 9, "name": "Ananas", "description": "L'ananas est un fruit tropical à la saveur acidulée." },
+    { "id": 10, "name": "Raisin", "description": "Les raisins sont petits, sucrés et peuvent être consommés frais ou secs." },
+    { "id": 11, "name": "Pêche", "description": "La pêche est un fruit sucré à peau duveteuse." },
+    { "id": 12, "name": "Abricot", "description": "L'abricot est un fruit orange et sucré." },
+    { "id": 13, "name": "Framboise", "description": "La framboise est un petit fruit rouge, acidulé et juteux." },
+    { "id": 14, "name": "Myrtille", "description": "La myrtille est un petit fruit bleu, sucré et légèrement acidulé." },
+    { "id": 15, "name": "Prune", "description": "La prune est un fruit rond et juteux, souvent de couleur violet ou rouge." },
+    { "id": 16, "name": "Melon", "description": "Le melon est un fruit d'été, sucré et rafraîchissant." },
+    { "id": 17, "name": "Pastèque", "description": "La pastèque est un fruit d'été, très hydratant avec une chair rouge sucrée." },
+    { "id": 18, "name": "Pomelo", "description": "Le pomelo est un agrume similaire au pamplemousse, mais plus doux." },
+    { "id": 19, "name": "Coconut", "description": "Le noix de coco est un fruit tropical, riche en eau et en pulpe." },
+    { "id": 20, "name": "Litchi", "description": "Le litchi est un fruit exotique, sucré et juteux, avec une peau rouge." }
+]
